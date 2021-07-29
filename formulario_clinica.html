@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title> Cadastro Médico </title>
+</head>
+<body>
+	<center>
+   
+  <h2>Cadastro de Médico</h2><br>
+  <form name="cadastro" action="conexao.php" method="POST"><br><p>
+    <label>Nome: </label>
+    <input type="text" name="nome" size="30"><br><p>
+    <label>CRM: </label>
+    <input type="text" name="crm" size="15"><br><p>
+    <label>Data de Admissão: </label>
+    <input type="date" name="data_de_admissao"><br><p>
+    <label>Salário:</label>
+    <input type="text" name="salario" size="8"><br><p>
+    <label>Especialização:</label>
+    <select name="especializacao"><br><p>
+     <option value="Ortopedia" >Ortopedia</option> 
+     <option value="Pediatria" >Pediatria </option> 
+     <option value="Cardiologia" >Cardiologia </option> 
+     <option value="Oftalmologia" >Oftalmologia </option> 
+     <option value="Ginicologia" >Ginicologia</option> 
+     <option value="Clinico Geral" >Clinico Geral</option> 
+     <option value="Obstetria" >Obstetria</option> 
+     <option value="Otorrinolaringologia" >Otorrinolaringologia</option> 
+     <option value="Neurologia" >Neurologia</option>
+     <option value="Oncologia" >Oncologia</option>
+     <option value="Dermatologia" >Dermatologia</option>
+     <option value="Geriatria" >Geriatria</option>
+     <option value="Psiquiatria" >Psiquiatria</option><br><p>
+    </select><br><p>
+    <input type="submit" name="enviar" value="Enviar">
+    </center>
+
+    
+
+  </form>
+</body>
+
+</html>
+
+
+
